@@ -1,0 +1,22 @@
+{
+	"mobiles": [{
+			"id": 1,
+			"name": "Moto G5s Plus",
+			"description": "dual back camera with good features ",
+			"image": "abc.jpg",
+			"price": "13999",
+			"details": "13+13MP dual back camera (f\/2.0, dual LED flash) and 8MP front facing camera with flash\r\n4GB RAM and 64GB internal memory expandable up to 128GB\r\n13.97cms (5.5-inch) Full HD (1080 x 1920) capacitive touchscreen with Gorilla Glass 3 protection\r\nDual nano hybrid SIM with dual-standby (4G+4G); Metal body with fingerprint reader\r\nAndroid v7.1 Nougat operating system with 2.0GHz Snapdragon 625 octa-core processor\r\n3000mAH Lithium-ion battery with 15W Turbo Charging"
+		},
+		{
+			"id": 2,
+			"name": "OnePlus 5T",
+			"description": "dual back camera with good features ",
+			"image": "images/5t.jpg",
+			"price": "32999",
+			"details": "20MP+16MP primary dual camera and 16MP front facing camera\r\n15.26 centimeters (6.01-inch) capacitive touchscreen FHD Full Optic AMOLED 18:9 display with 2160 x 1080 pixels resolution. Cover Glass:2.5D Corning Gorilla Glass 5\r\nOxygenOS based on Android 7.1.1 Nougat with Qualcomm Snapdragon 835 octa core processor\r\n6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G)\r\n3300mAH lithium Polymer battery with Dash Charge technology\r\nFace Unlock, Fingerprint scanner, all-metal unibody and NFC enabled"
+
+		}]
+		
+	}
+
+	

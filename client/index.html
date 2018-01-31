@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="styleshett" type="text/css" href="cc/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js></script>
+        
+    <script src="app.js"></script>
+    <script src="mobilectrl.js"></script>
+     <script src="service.js"></script> 
+     <script src="detailCtrl.js"></script>  
+    <script src="viewCtrl.js"></script>
+    
+    
+         
+       
+  <title>indexPage</title>
+ 
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="mainctrl">
+
+<nav class="navbar navbar-inverse navbar-static-top"><br>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SHOP MORE</a>
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbarHeaderCollapse"></button>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="mobile" >Mobiles</a></li>
+      <li><a ui-sref="laptop" >Laptops</a></li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  
+      
+      <div class="col-md-12 col-md-offset-3">
+          <ui-view></ui-view> 
+      </div>
+    </div>
+
+    
+  </div>
+    
+</div>
+
+</body>
+</html>

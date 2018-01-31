@@ -1,0 +1,17 @@
+   
+    <div class="container"  >
+        <h1>MOBILE PHONES</h1>
+
+          <div  ng-repeat="arr in db" >
+
+          		<a  href='#'><img class="button" ng-src="{{arr.image}}" height="200" width="200"  ng-click="detailsRedirect($index)" /></a>
+          			<p>{{arr.id}}</p>
+          			<p>{{arr.name}}</p>
+                    <p>{{arr.price}}</p>
+                   
+
+         </div>
+         </div>     
+
+           
+        
